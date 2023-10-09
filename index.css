@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 1920px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00aeff;
+}
+.textHeader {
+  color: #181818;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+}
+.container {
+  width: 1920px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.textContainer {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  line-height: 29.26px;
+  font-weight: 600;
+}
+.image {
+  width: 1920px;
+  height: 378px;
+}
+.backgroundImg {
+  width: 1920px;
+  height: 378px;
+  background-image: url(./Mask\ Group.png);
+  color: #f9f9f9;
+  background-position: center;
+  position: relative;
+}
+.overlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin-top: 10px;
+  margin-left: 4%;
+  color: #f9f9f9;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 48px;
+  /* font-display: ; */
+  line-height: 58.51px;
+}
+h3 {
+  margin-top: 26px;
+  margin-left: 4%;
+  color: #f9f9f9;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38.4px;
+}
+.destaques {
+  font-family: 'Montserrat';
+  margin-top: 70px;
+  width: 1920px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .contentContainer  {
+  justify-content: center;
+  height: 39px;
+  display: flex;
+} */
+
+span {
+  display: flex;
+  width: 176px;
+  height: 39px;
+  color: #181818;
+  font-family: "Montserrat";
+  font-size: 32px;
+  line-height: 39.01px;
+}
+p.frete {
+  margin-top: 17px;
+  display: block;
+  justify-content: first baseline;
+}
+.tenis {
+  margin-top: 65px;
+}
+.intoImage {
+  z-index: 99;
+  position: absolute;
+  top: 104px;
+  left: 0;
+  right: 0;
+  color: #f9f9f9;
+}
+.backgroundShoes {
+  display: flex;
+  margin:20px;
+  justify-content: center;
+  align-items: center;
+  width: 415px;
+  height: 302px;
+  background-color: #ebe9ea;
+}
+.line1 {
+  display: flex;
+  justify-content: center;
+}
+.line2 {
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 60px;
+  background-color:#00AEFF;
+}
+.lastFoot {
+  width: 260px;
+  height: 22px;
+  font-family: 'Montserrat';
+}
